@@ -116,6 +116,12 @@ app {
 .validation-message {
     color: red;
 }
+.disable-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 
 #blazor-error-ui {
     background: lightyellow;
